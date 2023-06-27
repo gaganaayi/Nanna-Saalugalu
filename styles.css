@@ -1,0 +1,322 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+section {
+  text-align: center;
+}
+section h2 {
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+#poetry h2 {
+  font-size: 40px;
+  margin-bottom: 45px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 24px; /* Increase the font size of the navigation bar */
+}
+
+/* Home Section */
+#home {
+  padding: 150px 20px;
+  text-align: center;
+  background-color: #00509e;
+  color: #fff;
+  margin-bottom: 30px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 2);
+}
+
+.logo {
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Increase the white glow around the logo */
+}
+
+.logo-image {
+  width: 300px; /* Increase the size of the logo */
+}
+
+.typing-text {
+  display: inline-block;
+  font-size: 60px; /* Increase the size of the text 'Namma Salugalu' */
+  font-weight: bold;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #fff;
+  animation: typing 3s steps(30) infinite;
+  visibility: visible;
+  color: #ffffff;
+}
+
+.subheading {
+  font-size: 25px; /* Decrease the font size of the subheading */
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Published Poetry Section */
+#poetry {
+  height: inherit;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.poetry-card {
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+.poetry-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.writer-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.poetry-content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.poetry-text,
+.writer-name {
+  font-weight: bold;
+}
+
+.poetry-text {
+  margin-bottom: 10px;
+}
+
+.writer-name {
+  color: #888888;
+}
+
+/* About Me Section */
+#about {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+  text-align: center;
+  height: 450px;
+}
+
+#about h2 {
+  font-size: 40px;
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  border: 5px solid #4a90e2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.about-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 12%;
+  margin-left: 5%;
+}
+.about-image {
+  flex: 0 0 40%;
+  height: 45%;
+  text-align: left;
+  position: relative;
+  margin-right: 1%;
+  margin-left: 5%;
+}
+
+.about-text h3 {
+  font-size: 35px;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+  height: 400px;
+}
+
+.contact-section {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.contact-image{
+  width: 150px;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.contact-heading h3 {
+  font-size: 40px;
+  margin-bottom: 45px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: underline;
+}
+
+.contact-text {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-subtext {
+  font-size: 16px;
+  color: #777;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-button svg {
+  fill: white;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+.contact-button:hover {
+  background-color: #23527c;
+}
+
+/*footer*/
+footer {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-image{
+  width: 100px;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+/* Typing Animation Keyframes */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+/* Add gap between sections */
+.section {
+  margin-bottom: 20px;
+}
+
+/* Apply shadow effect to sections */
+.section {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Preloader */
+
+
+
+
+/* 000webhost Banner Remove Script */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+    display:none;
+}

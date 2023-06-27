@@ -1,0 +1,17 @@
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-circle"></div>
+      <div class="loader-text">Loading...</div>
+    </div>
+  </div>
+
+  <div id="verification-section" style="display: none;">
+    <h1>Verify You Are A Human</h1>
+    <label>
+      <input type="checkbox" id="verification-checkbox">
+      I am not a robot
+    </label>
+    <button id="enter-button" style="display: none;">Enter</button>
+  </div>
+
+  <div id="website-content" style="display: none;">
